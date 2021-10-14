@@ -88,12 +88,7 @@ body {
 }
 
 .tweet-container {
-    min-width: 30px;
-    min-height: 100px;
-    margin: 0 20px;
-    position: absolute;
-    left: -100px;
-    top: 110px;
+    background-color: white;
 }
 
 .content-body {

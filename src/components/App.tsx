@@ -4,14 +4,13 @@ class App extends React.Component {
   render() {
     return (
     <div className="main-container">
-        <div className="cloud-image">
-            <img alt="" src="./img/successCloudNew.svg" />
+        <div className="cloud-image" style={{textAlign:'center'}}>
+            <img alt="" src="img/icon-student_developer_pack.png" />
+            <img alt="" style={{height:'210px',width:'200px'}} src="img/arrow.png" />
+            <img style={{height:'210px',width:'230px'}} src="img/azurelogo.png" />
         </div>
         <div className="content">
             <div className="tweet-container">
-            <a href="http://twitter.com/intent/tweet/?text=I%20just%20created%20a%20new%20Node.js%20website%20on%20Azure%20using%20GitHub%20workflow&hashtags=GitHub%2CGitHubWorkflow%20%40Azure">
-                <img src="img/tweetThis.svg" />
-            </a>
         </div>
             <div className="content-body">
                 <div className="success-text">Github Hackathon!</div>
